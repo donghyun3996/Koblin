@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3FDE64A8C366B302828057 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8AA22810467F08A6C524B2F /* SceneDelegate.swift */; };
+		3459A376C94FA27A929BDA59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2058388EB32B64B3344661BF /* AppDelegate.swift */; };
+		40DE57F5D950B02FF386DAD7 /* baseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0AFC6A23227C7E5002BBF6E /* baseVC.swift */; };
+		5702B2FE31C63840DB3BF716 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1E0B3AF9E967E919BF42DE /* AppFlow.swift */; };
+		5A9BDB4DAF6152EEBF548AC9 /* Bundle+KoblinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA7E865216C7E3BFD8F868D /* Bundle+KoblinApp.swift */; };
+		7389D7293B82FC4C717300B3 /* MainFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D416D1722F1DDBD9AF961C /* MainFlow.swift */; };
+		8888E6081AB6BB9D29DF1CD4 /* Assets+KoblinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD3256B79033B1754815711 /* Assets+KoblinApp.swift */; };
+		94CF57122613580C3EFA5BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 678F0DE2AC43BF7C9EC6ECDA /* LaunchScreen.storyboard */; };
+		B56BDAA1448223DE74278DC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C734D4710288AB5CE9F90519 /* Assets.xcassets */; };
+		C9F80D442766E7B600B25248 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F80D432766E7B600B25248 /* HomeVC.swift */; };
+		F927D3222B37A1C20ED87DB2 /* Pods_KoblinApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9A1AC27806CFF64ED87EEE /* Pods_KoblinApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		417682F2C5954FB34CB19718 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2058388EB32B64B3344661BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D877CF91907EF3FABDBBA50 /* Pods-KoblinApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoblinApp.release.xcconfig"; path = "Target Support Files/Pods-KoblinApp/Pods-KoblinApp.release.xcconfig"; sourceTree = "<group>"; };
+		4D9A1AC27806CFF64ED87EEE /* Pods_KoblinApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KoblinApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678F0DE2AC43BF7C9EC6ECDA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C7C47C93A74BC7AD940B6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9EA7E865216C7E3BFD8F868D /* Bundle+KoblinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+KoblinApp.swift"; sourceTree = "<group>"; };
+		A28AF418F45453ABEF14CEA8 /* Pods-KoblinApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KoblinApp.debug.xcconfig"; path = "Target Support Files/Pods-KoblinApp/Pods-KoblinApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ABD3256B79033B1754815711 /* Assets+KoblinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assets+KoblinApp.swift"; sourceTree = "<group>"; };
+		C734D4710288AB5CE9F90519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9F80D432766E7B600B25248 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CC1C6F90178DA92A72DAE7F5 /* KoblinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoblinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D416D1722F1DDBD9AF961C /* MainFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlow.swift; sourceTree = "<group>"; };
+		F0AFC6A23227C7E5002BBF6E /* baseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseVC.swift; sourceTree = "<group>"; };
+		F8AA22810467F08A6C524B2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC1E0B3AF9E967E919BF42DE /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04D2D1E6E9B22AEAAA43F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F927D3222B37A1C20ED87DB2 /* Pods_KoblinApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0035846F65E15CE6261A52E6 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABECC9847D27E52DCB5F7F /* Derived */,
+				5E58CE7363229F676B14BED9 /* Resource */,
+				CEDF23E36F509AFF5403A819 /* Source */,
+				815D5848ED5E6DA518252B14 /* Support */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		2A7DB92821CEA0764834A912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1C6F90178DA92A72DAE7F5 /* KoblinApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A20927E88540C60785CE878 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2058388EB32B64B3344661BF /* AppDelegate.swift */,
+				F8AA22810467F08A6C524B2F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		51A685A463408B55BEDE8DE1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ABD3256B79033B1754815711 /* Assets+KoblinApp.swift */,
+				9EA7E865216C7E3BFD8F868D /* Bundle+KoblinApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5E58CE7363229F676B14BED9 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C734D4710288AB5CE9F90519 /* Assets.xcassets */,
+				678F0DE2AC43BF7C9EC6ECDA /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		815D5848ED5E6DA518252B14 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C47C93A74BC7AD940B6B5 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		942AF48B05E679E17658F064 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D9A1AC27806CFF64ED87EEE /* Pods_KoblinApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9485585B256E0F457FB8E84B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F0AFC6A23227C7E5002BBF6E /* baseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		96A8F2043A469951FAEAD129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A28AF418F45453ABEF14CEA8 /* Pods-KoblinApp.debug.xcconfig */,
+				4D877CF91907EF3FABDBBA50 /* Pods-KoblinApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4541E2CAF7C6B58C7B4A91B = {
+			isa = PBXGroup;
+			children = (
+				0035846F65E15CE6261A52E6 /* Project */,
+				942AF48B05E679E17658F064 /* Frameworks */,
+				2A7DB92821CEA0764834A912 /* Products */,
+				96A8F2043A469951FAEAD129 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F80D412766E79F00B25248 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C9F80D432766E7B600B25248 /* HomeVC.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CEDF23E36F509AFF5403A819 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C9F80D412766E79F00B25248 /* Scene */,
+				4A20927E88540C60785CE878 /* App */,
+				9485585B256E0F457FB8E84B /* Base */,
+				FF093F8287B001EB26319A31 /* Flow */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EDE01C7BA48C1970D357062B /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				D2D416D1722F1DDBD9AF961C /* MainFlow.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		F7ABECC9847D27E52DCB5F7F /* Derived */ = {
+			isa = PBXGroup;
+			children = (
+				51A685A463408B55BEDE8DE1 /* Sources */,
+			);
+			path = Derived;
+			sourceTree = "<group>";
+		};
+		FF093F8287B001EB26319A31 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EDE01C7BA48C1970D357062B /* Flows */,
+				FC1E0B3AF9E967E919BF42DE /* AppFlow.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C44CFE40C5A74C0E6A364352 /* KoblinApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757C8450E3D7567EEA397445 /* Build configuration list for PBXNativeTarget "KoblinApp" */;
+			buildPhases = (
+				09A709402BD651E25DC90103 /* [CP] Check Pods Manifest.lock */,
+				E1AB2D6EA39164B959156412 /* Sources */,
+				2ECCC3FB1B858A17EDEB1D55 /* Resources */,
+				417682F2C5954FB34CB19718 /* Embed Frameworks */,
+				A04D2D1E6E9B22AEAAA43F8C /* Frameworks */,
+				33BD5B196927074956B67B52 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoblinApp;
+			productName = KoblinApp;
+			productReference = CC1C6F90178DA92A72DAE7F5 /* KoblinApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998D31E3AA4F41DB69A1286B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ehdgus;
+			};
+			buildConfigurationList = B434AEB074C6703DA53C03A5 /* Build configuration list for PBXProject "KoblinApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A4541E2CAF7C6B58C7B4A91B;
+			productRefGroup = 2A7DB92821CEA0764834A912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C44CFE40C5A74C0E6A364352 /* KoblinApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECCC3FB1B858A17EDEB1D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56BDAA1448223DE74278DC3 /* Assets.xcassets in Resources */,
+				94CF57122613580C3EFA5BE9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A709402BD651E25DC90103 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KoblinApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33BD5B196927074956B67B52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoblinApp/Pods-KoblinApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KoblinApp/Pods-KoblinApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KoblinApp/Pods-KoblinApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1AB2D6EA39164B959156412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8888E6081AB6BB9D29DF1CD4 /* Assets+KoblinApp.swift in Sources */,
+				C9F80D442766E7B600B25248 /* HomeVC.swift in Sources */,
+				5A9BDB4DAF6152EEBF548AC9 /* Bundle+KoblinApp.swift in Sources */,
+				3459A376C94FA27A929BDA59 /* AppDelegate.swift in Sources */,
+				0C3FDE64A8C366B302828057 /* SceneDelegate.swift in Sources */,
+				40DE57F5D950B02FF386DAD7 /* baseVC.swift in Sources */,
+				5702B2FE31C63840DB3BF716 /* AppFlow.swift in Sources */,
+				7389D7293B82FC4C717300B3 /* MainFlow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		249AEC4867ABB86F9F8EF5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25437D471316D62E86444B01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D877CF91907EF3FABDBBA50 /* Pods-KoblinApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ehdgus.KoblinApp;
+				PRODUCT_NAME = KoblinApp;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3865002F560E11E673C52240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28AF418F45453ABEF14CEA8 /* Pods-KoblinApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ehdgus.KoblinApp;
+				PRODUCT_NAME = KoblinApp;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.5.1;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D47F50C540A5FAA4E725034C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		757C8450E3D7567EEA397445 /* Build configuration list for PBXNativeTarget "KoblinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3865002F560E11E673C52240 /* Debug */,
+				25437D471316D62E86444B01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B434AEB074C6703DA53C03A5 /* Build configuration list for PBXProject "KoblinApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47F50C540A5FAA4E725034C /* Debug */,
+				249AEC4867ABB86F9F8EF5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998D31E3AA4F41DB69A1286B /* Project object */;
+}
